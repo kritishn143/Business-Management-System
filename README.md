@@ -2,7 +2,7 @@
 
 Live demo: https://businessms.vercel.app/
 
-A business management and point-of-sale application for a stationery shop:
+A business management and point-of-sale application for a business/shop:
 inventory, sales, purchases, customers and suppliers, money, and reports.
 
 Built web-first. The database is the authority — money and stock are ledgers of
