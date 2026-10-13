@@ -1,0 +1,39 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env files — never commit real credentials
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# supabase local/cli state
+/supabase/.temp/
+/supabase/.branches/
+
+# misc
+.DS_Store
+*.pem
+*.key
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vitest / coverage
+/coverage
+
+/AGENTS.md
+/CLAUDE.md
+/SECURITY.md
+/SPEC.md
